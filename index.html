@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>6 Months With You 💗</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: sans-serif;
+      background: linear-gradient(135deg, #ffe4ec, #fff5f7);
+      color: #805064;
+    }
+
+    .card {
+      background: white;
+      padding: 35px 25px;
+      margin: 20px;
+      border-radius: 25px;
+      box-shadow: 0 8px 25px #d99bad55;
+      max-width: 380px;
+    }
+
+    h1 {
+      color: #e4779c;
+    }
+
+    button {
+      background: #e4779c;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 13px 22px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy 6 Months 💗</h1>
+    <p>ขอบคุณที่เข้ามาเป็นความสุขในชีวิตของเรานะ</p>
+    <p>ทุกช่วงเวลาที่มีเธอมีความหมายเสมอ 🌷</p>
+
+    <button onclick="showMessage()">
+      กดอ่านข้อความ 💌
+    </button>
+
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerText =
+        "รักเธอนะ ขอบคุณที่อยู่ด้วยกันมาตลอด 💖";
+    }
+  </script>
+</body>
+</html>
